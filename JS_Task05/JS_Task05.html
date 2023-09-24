@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Task 5</title>
+  </head>
+  <body>
+    <center>
+      <table border="1px solid black">
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td>
+            <input type="text" id="name" name="name" onchange="checkIfValid('name', 'name-reqd')" />
+          </td>
+          <td class="required-text" id="name-reqd"></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td>
+            <input type="email" id="email" name="email" />
+          </td>
+          <td class="required-text"></td>
+        </tr>
+        <tr>
+          <td><label for="website">Website:</label></td>
+          <td>
+            <input type="text" id="website" name="website" />
+          </td>
+          <td class="required-text"></td>
+        </tr>
+        <tr>
+          <td><label for="message">Message:</label></td>
+          <td>
+            <textarea name="message" id="message" cols="20" rows="10"></textarea>
+          </td>
+          <td class="required-text"></td>
+        </tr>
+      </table>
+    </center>
+    <script src="./js_task05.js"></script>
+  </body>
+</html>
